@@ -1,0 +1,19 @@
+{
+  "name": "task-tracker-cli",
+  "version": "1.0.0",
+  "description": "Requirements -",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "bin": {
+    "task-cli": "./bin/index.js/"
+  },
+  "author": "vahbuna0615",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.5.0"
+  }
+}
