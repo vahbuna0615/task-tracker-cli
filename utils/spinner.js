@@ -1,6 +1,7 @@
 const process = require('process')
 const fs = require('fs')
-const spinners = JSON.parse(fs.readFileSync('D:/Important/roadmap.sh-backend/projects/task-tracker-cli/utils/spinners.json').toString())
+const path = require('path')
+const spinners = JSON.parse(fs.readFileSync(path.resolve(__dirname, './spinners.json')).toString())
 const colors = require('colors')
 
 function createSpinner(message, spinnerName) {
