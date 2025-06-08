@@ -27,16 +27,18 @@ task-cli update 1 "Buy groceries and cook dinner"
 task-cli delete 1
 
 # Marking a task as in progress or done
-task-cli mark-in-progress 1
-task-cli mark-done 1
+# todo = TD, in-progress = IP, done = DN
+task-cli mark 1 TD
+task-cli mark 1 IP
+task-cli mark 1 DN
 
 # Listing all tasks
 task-cli list
 
 # Listing tasks by status
-task-cli list done
-task-cli list todo
-task-cli list in-progress
+task-cli list DN
+task-cli list TD
+task-cli list IP
 ```
 
 **Task Properties -**
