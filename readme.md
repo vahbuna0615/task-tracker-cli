@@ -4,7 +4,9 @@
 https://roadmap.sh/projects/task-tracker
 
 **Prerequisites -**
-- Create a JSON file for storing tasks, provide its path in the .env file.
+- Create a JSON file for storing tasks.
+- Create a .env file in project directory with **TASKS_PATH** variable set as the file path containing the tasks JSON file.
+- Running `npm install -g` installs the task-cli app globally.
 
 **Functions -**
 
